@@ -5,9 +5,9 @@ import {useState} from "react";
 const App = () => {
     const [count,setCount] = useState(0);
 
-    handleCount = ()=>{
+const handleCount = ()=>{
         setCount(count+1);
-    }
+    };
   return (
     <div>
         {/* Do not remove the main div */}
